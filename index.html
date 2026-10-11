@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="page">
+    <div class="left">
+        <img src="images/signupimg.jpg" alt="leaf image">
+    </div>
+    <div class="right">
+        <div class="intro">
+            <p>
+                This is not a real online service! You know you need
+                something like this in your life to help you realise
+                your deepest dreams.
+                Sign up now to get started.
+            </p>
+            <p>You know you want to.</p>
+        </div>
+        <form action="signup">
+            <div class="formCard">
+                <div class="userInfo">
+                    <label for="firstName">First Name</label>
+                    <input type="text" name="firstName" id="firstName" required>
+                </div>
+
+                <div class="userInfo">
+                    <label for="lastName">Last Name</label>
+                    <input type="text" name="lastName" id="lastName" required>
+                </div>
+
+                <div class="userInfo">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+
+                <div class="userInfo">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" name="phone" id="phone">
+                </div>
+
+                <div class="userInfo">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" required minlength="8">
+                </div>
+
+                <div class="userInfo">
+                    <label for="confirmPassword">Confirm Password</label>
+                    <input type="password" name="confirmPassword" id="confirmPassword" required minlength="8">
+                </div>
+            </div>
+            <button>sign up</button>
+        </form>
+        <p>already a customer</p>
+    </div>
+    </div>
+</body>
+</html>

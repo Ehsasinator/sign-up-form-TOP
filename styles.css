@@ -1,0 +1,50 @@
+.page {
+    display: flex;
+    height: 100vh;
+}
+.left {
+    width: 40%;
+}
+
+img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    
+}
+
+.intro {
+    padding: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    justify-content: center;
+}
+
+.formCard {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px 50px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    width: 100%;
+}
+
+input {
+    width: 200px;
+}
+
+.userInfo {
+    display: flex;
+    flex-direction: column;
+
+}
+
+body {
+    margin: 0;
+}
